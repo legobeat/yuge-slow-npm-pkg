@@ -1,0 +1,11 @@
+{
+  "name": "yuge-slow-npm-pkg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "legobt <6wbvkn0j@anonaddy.me>",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "postinstall": "./hooks.sh postinstall 10",
+    "preinstall": "./hooks.sh preinstall 30"
+  }
+}
